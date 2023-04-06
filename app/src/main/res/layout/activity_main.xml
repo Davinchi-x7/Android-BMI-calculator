@@ -7,7 +7,6 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:paddingLeft="100dp"
         android:id="@+id/display"
         android:layout_width="500dp"
         android:layout_height="100dp"
@@ -23,32 +22,32 @@
         android:layout_marginTop="150dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/weight"
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="80dp"
         android:ems="10"
-        android:inputType="number"
-        android:hint="Enter weight" />
+        android:inputType="numberDecimal"
+        android:hint="Enter weight(KG)" />
 
     <EditText
         android:layout_marginTop="230dp"
         android:layout_centerHorizontal="true"
         android:id="@+id/height"
-        android:layout_width="wrap_content"
+        android:layout_width="400dp"
         android:layout_height="80dp"
         android:ems="10"
-        android:inputType="number"
-        android:hint="Enter height" />
+        android:inputType="numberDecimal"
+        android:hint="Enter height(metres)" />
 
     <LinearLayout
         android:layout_marginTop="350dp"
         android:layout_width="500dp"
-        android:layout_height="100dp"
+        android:layout_height="200dp"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/calc"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="70dp"
             android:layout_weight="1"
             android:text="calculate" />
     </LinearLayout>
